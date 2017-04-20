@@ -29,4 +29,27 @@ userController.post = (req, res) => {
 
 };
 
+   userController.getAll = (req, res) => {
+
+    //const {username, age} = req.query;
+
+    const username = req.query.username || '';
+    const age = req.query.age || '';
+
+
+   db.User.find({$and:[{username},{age}]}).then((users) => {
+       console.log(username, age);
+        return res.status(200).json({
+            success: true,
+            data: users
+        });
+   }).catch((err) => {
+        res.status(500).json({
+            message: err
+        });
+   });
+
+
+};
+
 export default userController;

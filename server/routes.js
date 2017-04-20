@@ -11,5 +11,6 @@ routes.get('/', baseController.get);
 
 //user routes
 routes.post('/signup', userController.post);
+routes.get('/users', userController.getAll);
 
 export default routes;

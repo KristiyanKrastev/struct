@@ -8,8 +8,19 @@ mongoose.connect('mongodb://localhost:27017/struct', ()=> {
 
 const app = express();
 
+
+//https://github.com/expressjs/body-parser
+// create application/json parser
+const jsonParser = bodyParser.json();
+
+// create application/x-www-form-urlencoded parser
+const urlencodedParser = bodyParser.urlencoded({ extended: false });
+
+
 // Middleware
-app.use(bodyParser.json());
+app.use(jsonParser);
+
+
 app.use('/api', routes);
 
 
