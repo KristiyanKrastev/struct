@@ -14,7 +14,6 @@ userController.post = (req, res) => {
        username,
        password
    });
-
    // .save() try to save the new User to the database
    user.save().then((newUser)=>{
         res.status(200).json({
@@ -29,6 +28,8 @@ userController.post = (req, res) => {
 
 };
 
+    //offset -> ../users?offset=50&limint=50
+    //limit ->
    userController.getAll = (req, res) => {
 
     //const {username, age} = req.query;
