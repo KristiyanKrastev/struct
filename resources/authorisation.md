@@ -2,11 +2,16 @@ https://github.com/djvirgen/virgen-acl Simple and elegant, create your own check
 
 https://github.com/OptimalBits/node_acl Use as middleware, create your own roles and access. Great choice.
 
+https://blog.nodeswat.com/implement-access-control-in-node-js-8567e7b484d1 - tutorial
+
 http://stackoverflow.com/questions/22827493/running-node-acl-with-mongoose-on-expressjs
 
 http://stackoverflow.com/questions/26895219/verifying-roles-authentication-with-passport-js
 
 http://stackoverflow.com/questions/24286835/express-js-mongoose-user-roles-and-permissions
+
+
+http://andowebsit.es/blog/noteslog.com/post/how-to-setup-permissions-and-roles-on-nodejs/
 
 https://github.com/tschaub/authorized Similar to connect roles... but a bit more robust? you can create roles and action, and associate many roles with that action
 
