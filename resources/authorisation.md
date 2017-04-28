@@ -10,6 +10,16 @@ http://stackoverflow.com/questions/26895219/verifying-roles-authentication-with-
 
 http://stackoverflow.com/questions/24286835/express-js-mongoose-user-roles-and-permissions
 
+http://andowebsit.es/blog/noteslog.com/post/how-to-setup-permissions-and-roles-on-nodejs/
+
+https://github.com/jedireza/frame
+
+https://github.com/jedireza/aqua
+
+https://gist.github.com/joshnuss/37ebaf958fe65a18d4ff - check this out
+
+https://github.com/ForbesLindesay/connect-roles
+
 
 http://andowebsit.es/blog/noteslog.com/post/how-to-setup-permissions-and-roles-on-nodejs/
 
