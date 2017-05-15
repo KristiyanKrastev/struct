@@ -2,9 +2,19 @@ import express from "express";
 import bodyParser from "body-parser";
 import mongoose from "mongoose";
 import routes from "./routes";
+
+// red flag for problems here:
+const Promise = require('bluebird');
+mongoose.Promise = global.Promise;
+Promise.promisifyAll(mongoose);
+
+
 mongoose.connect('mongodb://localhost:27017/struct', ()=> {
     console.log("connected to mongodb -> db ->struct");
-})
+});
+mongoose.set('debug', true);
+
+//mongoose.Promise = require('bluebird');
 
 const app = express();
 

@@ -13,3 +13,6 @@ http://scottksmith.com/blog/2014/05/29/beer-locker-building-a-restful-api-with-n
 https://github.com/jdesboeufs/connect-mongo
 
 https://github.com/expressjs/cookie-parser  - if needed
+
+
+https://www.youtube.com/watch?v=pzGQMwGmCnc&t=151s
